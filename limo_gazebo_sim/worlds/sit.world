@@ -108,7 +108,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://sit_map.stl</uri>
+              <uri>/home/yuyi/Desktop/Lab4/limo_gazebo_sim/meshes/empty_sit_map.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -135,7 +135,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://sit_map.stl</uri>
+              <uri>/home/yuyi/Desktop/Lab4/limo_gazebo_sim/meshes/empty_sit_map.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -188,13 +188,13 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>0 0.01 0 0 -0 0</pose>
+      <pose frame=''>0.278687 0.017259 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>14 320000000</sim_time>
-      <real_time>14 350883491</real_time>
-      <wall_time>1653986468 281114837</wall_time>
-      <iterations>1432</iterations>
+      <sim_time>67 910000000</sim_time>
+      <real_time>68 25358976</real_time>
+      <wall_time>1654001855 135347375</wall_time>
+      <iterations>6791</iterations>
       <model name='ground_plane'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -206,10 +206,10 @@
         </link>
       </model>
       <model name='sit_map'>
-        <pose frame=''>0 0.01 0 0 -0 0</pose>
+        <pose frame=''>0.278687 0.017259 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_0'>
-          <pose frame=''>0 0.01 0 1.57 -0 0</pose>
+          <pose frame=''>0.278687 0.017259 0 1.57 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -221,7 +221,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>10.6786 -8.16367 8.78455 0 0.623643 2.16819</pose>
+        <pose frame=''>5 -5 2 0 0.275643 2.35619</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
